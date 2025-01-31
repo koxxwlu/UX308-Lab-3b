@@ -36,4 +36,4 @@ function WindspdToScale(windSpeed) { //speed uses mph
 
 export {WindspdToScale};
 
-//Resource used: weather.gov/mfl/beaufort
+//Resource used: weather.gov/mfl/beaufort.
