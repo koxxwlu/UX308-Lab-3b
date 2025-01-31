@@ -6,4 +6,14 @@ describe("test WindspdToScale()", function() {
         let desc = WindspdToScale(speed);
         expect(desc).toBe("Calm");
     });
+    it("test speed = 97", function() {
+        let speed = 97;
+        let desc = WindspdToScale(speed);
+        expect(desc).toBe("Invalid");
+    });
+    it("test speed = 37", function() {
+        let speed = 37;
+        let desc = WindspdToScale(speed);
+        expect(desc).toBe("Near Gale");
+    });
 });
