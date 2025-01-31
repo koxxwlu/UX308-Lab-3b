@@ -1,5 +1,5 @@
-function WindspdToScale() {
-
+function WindspdToScale(windSpeed) {
+    
     return fah;
 };
 

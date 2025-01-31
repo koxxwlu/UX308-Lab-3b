@@ -6,4 +6,9 @@ describe("test KelvinToFah()", function() {
         let fah = KelvinToFah(kelvin);
         expect(fah.toFixed(2)).toBe("-279.67");
     });
+    it("test 127 kelvin", function() {
+        let kelvin = 127;
+        let fah = KelvinToFah(kelvin);
+        expect(fah.toFixed(2)).toBe("-231.07");
+    });
 });
